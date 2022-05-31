@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+h1 {
+    color:black;
+}
+header {
+    background-color: #B87F68;
+}
+
+header nav{
+    position: relative;
+    /*left: 47px;*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 16%;
+    margin-right: 2px;
+}
+
+nav .posebni{
+    float: left;
+}
+
+nav li .search{
+    float: right;
+    border-left: 1px solid black;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    background-color: #845b4b;
+}
+
+.sidebarleft .buttoni{
+    position: relative;
+    top: 200px;
+    text-decoration: none;
+    color: #B87F68;
+    padding: 10px;
+    border: 1px solid #B87F68;
+    background-color:white;
+
+}
+.oglasi .buttoni{
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+    text-decoration: none;
+    color: #B87F68;
+    padding: 10px;
+    border: 1px solid #B87F68;
+    background-color:white;
+}
+
+.buttoni:hover{
+    background-color: #B87F68;
+    color: white;
+}
+main{
+    background-color:#f6fcf7;
+    height: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sidebarleft label{
+    position: relative;
+  
+}
+.sidebarleft a{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    
+}
+.sidebarleft{
+    position: relative;
+    border: 1px black solid;
+    height: 400px;
+    width: 150px;
+}
+.oglasi{
+    position: relative;
+    bottom: 404px;
+    left: 160px;
+    width: 585px;
+    height: 600px;
+}
+.oglasi img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.oglasi p{
+    position: relative;
+    top: -70px;
+    left: 150px;
+    width: 400px;
+    border: 1px solid black;
+
+}
+.oglasi button{
+    position: relative;
+    top: -50px;
+    right: 10px;
+    float: right;
+
+}
+.oglas1{
+    position:relative;
+    border: 1px solid black;
+    height: 120px;
+}
+.oglas2{
+    margin-top: 10px;
+    position:relative;
+    border: 1px solid black;
+    height: 120px;
+}
+.oglas3{
+    margin-top: 10px;
+    position:relative;
+    border: 1px solid black;
+    height: 120px;
+}
+.oglas4{
+    margin-top: 10px;
+    position:relative;
+    border: 1px solid black;
+    height: 120px;
+}
+.footerad{
+    position: relative;
+    bottom: 420px;
+    left: 2px;
+    border: 2px black solid;
+    height: 150px;
+    width: 900px;
+    
+}
+
+footer{
+    background-color: #B87F68;
+}

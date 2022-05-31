@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+
+
+
+h1 {
+    color:black;
+}
+header {
+    background-color: #B87F68;
+}
+
+header nav{
+    position: relative;
+    /*left: 47px;*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 16%;
+    margin-right: 2px;
+}
+
+nav .posebni{
+    float: left;
+}
+
+nav li .search{
+    float: right;
+    border-left: 1px solid black;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+nav li a:hover {
+    background-color: #845b4b;
+}
+
+
+.buttoni:hover{
+    background-color: #B87F68;
+    color: white;
+}
+main{
+    background-color:#f6fcf7;
+    height: 865px;
+}
+
+.p1{
+    position: relative;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 330px;
+    width: 380px;
+    padding: 2px;
+   
+}
+.cont{
+    position: relative;
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    top: 60px;
+    border-radius: 25px;
+}
+.mapouter{
+    position:relative;
+    left: 90px;
+    bottom: 757px;
+}
+.footerad{
+    position: relative;
+    bottom: 420px;
+    left: 2px;
+    border: 2px black solid;
+    height: 150px;
+    width: 900px;
+    
+}
+form{
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+}
+label{
+    position: relative;
+    left: 75px;
+}
+.sel{
+    height: 30px;
+    width: 208px;
+    border-radius: 25px;
+    background-color: rgb(227, 227, 227);
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(227, 227, 227);
+    border: 1px solid black;
+}
+.puno{
+    height: 100px;
+}
+footer{
+    background-color: #B87F68;
+}

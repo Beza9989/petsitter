@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #e4f6e7;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+h1 {
+    color:black;
+}
+header {
+    background-color: #B87F68;
+}
+
+header nav{
+    position: relative;
+    /*left: 47px;*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 16%;
+    margin-right: 2px;
+}
+
+nav .posebni{
+    float: left;
+}
+
+nav li .search{
+    float: right;
+    border-left: 1px solid black;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+nav li a:hover {
+    background-color: #845b4b;
+}
+
+main{
+    background-color:#f6fcf7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .container .prvaslika{
+    /*position: relative;
+    left: 100px;*/
+}
+
+.prvaslika img{
+    width: 444px;
+    height: 300px;
+}
+
+.container .button1{
+    position: relative;
+    left: 150px;
+    bottom: 163px;
+    text-decoration: none;
+    color: #B87F68;
+    padding: 15px;
+    border: 1px solid #B87F68;
+    background-color:white;
+    
+}
+
+.button1:hover{
+    background-color: #B87F68;
+    color: white;
+}
+
+.container .button2{
+    position: relative;
+    left: 495px;
+    bottom: 163px;
+    text-decoration: none;
+    color: #B87F68;
+    padding: 15px;
+    border: 1px solid #B87F68;
+    background-color:white;
+}
+
+.button2:hover{
+    background-color: #B87F68;
+    color: white;
+}
+
+.drugaslika img{
+    width: 444px;
+    height: 300px;
+}
+
+.najbolji{
+    padding: 3px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content:space-between;*/
+    flex-direction: left;
+}
+
+main .container .drugaslika{
+    /*position: relative;
+    left: 0;*/
+}
+
+footer{
+    background-color: #B87F68;
+}

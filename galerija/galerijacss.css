@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #e4f6e7;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+h1 {
+    color:black;
+}
+header {
+    background-color: #B87F68;
+}
+
+header nav{
+    position: relative;
+    /*left: 47px;*/
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 16%;
+    margin-right: 2px;
+}
+
+nav li .search{
+    float: right;
+    border-left: 1px solid black;
+}
+
+nav .posebni{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    background-color: #845b4b;
+}
+
+main{
+    background-color:#f6fcf7;
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+}
+
+main .containernaslov{
+    margin: 0 auto;
+    width: 900px;
+}
+
+main .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.nestougaleriji{
+    padding-top: 10px;
+    text-align:center;
+    width: 280px;
+    height: 230px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: #B87F68;
+}
